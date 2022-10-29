@@ -1,0 +1,170 @@
+.welcome {   
+    background-image: url('images.jpg/background2.jpg');
+     background-position: center;
+     background-size: cover;
+     color: white;
+     text-align: center;   
+     font-family:'Courier New', Courier, monospace;
+    }
+   .welcome p{
+       padding-top: 2px;
+       font-size: medium;
+   }
+   .welcome h2{
+       padding-top: 5px;
+   }
+   .logo{
+     margin-top: 180px;
+     margin-bottom: 24px;
+     width: 70px;
+     height: 70px;;
+   }
+   .about {
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: small;
+   }
+   .services {
+     background-image: url('images.jpg/background3.jpg');
+     background-position: center;
+     background-size: cover;
+     color: white;
+     text-align: center;
+     width:auto;
+     height: 300px;
+     font-family:Times New Roman;
+     font-size: medium;
+      
+   }
+   .services h2{
+       padding: 15px;
+   } 
+   .services p{
+   
+       padding: 10px;
+   }
+    .heading{
+       text-align: center;
+  
+   }
+   .image1{
+    padding-left:150px;
+  }
+  
+  .image2{
+    padding-left:150px;
+    
+  }
+  .image3{
+    padding-left: 50px;
+    text-align: center;
+  }
+    
+   .design{
+       font-size: smaller;
+       text-align: center;
+       display: none;
+   }
+   .col-md-4 img{
+        max-width: 100%;
+        max-height: 100%;   
+    
+   }
+   .development{
+       font-size: smaller;
+       text-align: center;
+       display: none;
+     
+   }
+   .product{
+    font-size: smaller;
+    text-align: center;
+    display: none;
+   }
+   
+  
+   #portfolio{
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       margin-left:18%;
+       margin-right: 16%; 
+     }
+     
+     
+     #portfolio p{
+      text-align: center;
+      padding-top: 40px;
+      padding-left: 20px;
+      background-color:bisque;
+      box-sizing: border-box;
+      display:none;
+     }
+  
+     
+     .col-md-3 img{
+       max-width: 100%;
+       max-height: 100%;
+     }
+     .portfolio h2{
+       text-align: center;
+       padding-top:40px;
+       font-family: 'Gabriela', serif;
+     }
+     
+     .comment{
+     background-color: transparent;
+     font-size: 20px;
+     color: white;
+     font-family: 'Copse', serif;
+     }
+     .contact{
+       background-image: url(images.jpg/background1.jpg);
+       background-position: center center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       color: white;
+     
+     }
+     #input{
+        padding-left: 150px;
+        padding-right: 150px;
+  
+     }
+     .contact h5{
+       text-align: center;
+       margin-top: 30px;
+       padding-top: 40px;
+       padding-bottom: 20px;
+       font-family: 'Gabriela', serif;
+     }
+     
+     input[type=text],input[type=email],#comment{
+       background: transparent;
+       color: white;
+       font-size: 20px;
+       font-family: 'Copse';
+       padding-left: 150px;
+        padding-right: 150px;
+  
+     }
+     
+     .form-control::-webkit-input-placeholder { 
+       color: white; 
+     }
+  
+     #imagefooter{
+      align-items: center;
+      padding-left: 400px;
+  
+    }
+    .submit{
+      background-color: blue;
+      align-content: center;
+      display:flex;
+    }
+     .popup{
+      display:none;
+     }
+     
+     
