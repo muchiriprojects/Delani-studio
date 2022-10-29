@@ -17,7 +17,7 @@ get user input and using jquery send a response email indicating feedback was re
 
 ## link to live site on GitHub Pages
 
-https://github.com/muchiriprojects/Delani-studio.git
+https://muchiriprojects.github.io/Delani-studio/
 
 
 ## copyright and license information
