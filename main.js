@@ -86,6 +86,18 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+  $(".submit").click(function displayVals(){
+    var namevalue = $( "#name" ).val();
+    var emailvalue = $( "#email" ).val();
+  $( "p" ).html( "<b>Name</b> " + namevalue +
+  " <b>Email</b> " + emailvalue.join( ", " ) );
+  
+  $( ".submit" ).text( displayVals );
+  displayVals();
+  });
+  });
+
 function get (id){
 return $(id).val();
 
@@ -94,18 +106,6 @@ function output(){
 let t = "Your name is:  + s + "  
 $("#output").text(t);
 
-}
-$(document).ready(function(){ 
-  $( ".submit" ).click(function() {
-function get(id) {
-  var name = $( "#name" ).val();
-  var email = $( "#email" ).val() || [];
-  // When using jQuery 3:
-  // var multipleValues = $( "#multiple" ).val();
-  $( "p" ).html( "<b>Name</b> " + name +
-    " <b>Email</b> " + email.join( ", " ) );
-}
-$("#submit").text(get);
-get();
-});
-});
+};
+
+
